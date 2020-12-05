@@ -1,12 +1,6 @@
----
-layout: default
-title: markdown.md
-nav_order: 2
----
 
-# Markdown
-
-[Markdown｜ふうせん🎈 Fu-sen.](https://balloon.asia/markdown/) を編集しました。
+[remotetheme.github.io](https://remotetheme.github.io/) / 
+[midnight](/)
 
 ___
 
@@ -19,7 +13,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 間に空白行があると
 
 段落になります。
@@ -45,7 +39,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 # 見出し 1
 
 ## 見出し 2
@@ -74,7 +68,7 @@ h1・h2 はこの記述もできます。
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 見出し１
 ========
 
@@ -90,7 +84,7 @@ h1・h2 はこの記述もできます。
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ### 見出し {#head}
 </div>
 {::options parse_block_html="false" /}
@@ -111,7 +105,7 @@ HTML 上は「強い強調」ですが、ここでは主な表示である「太
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ここを **太字** にします。
 
 これでも __太字__ にできます。
@@ -125,7 +119,7 @@ HTML 上は「強い強調」ですが、ここでは主な表示である「太
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 前後に空白がない場合でも**bold**は機能しますが、
 
 こちらの__bold__は機能しない事があります。
@@ -149,7 +143,7 @@ HTML 上は「強調」ですが、ここでは主な表示である「斜体（
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ここが *Italic* になります。
 
 これでも _Italic_ になります。
@@ -179,7 +173,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 その1 ***bold + Italic***
 
 その2 **_bold + Italic_**
@@ -205,7 +199,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 > 引用の例です。
 >
 > この中で **太字** なども使えます。
@@ -235,7 +229,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 1. １つ目の項目
 1. ２つ目の項目
 1. ３つ目の項目
@@ -255,7 +249,7 @@ ___
 `-` 以外に `+` や `*` も使用できます。
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 - １つ目の項目
 - ２つ目の項目
 - ３つ目の項目
@@ -279,7 +273,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 - 項目を具体的に説明するために
 
   このようにして説明する事もできます。
@@ -300,7 +294,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 文中にコードを入れる時は `code` とします。
 </div>
 {::options parse_block_html="false" /}
@@ -317,7 +311,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ---
 </div>
 {::options parse_block_html="false" /}
@@ -334,7 +328,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 [test.pages.net.eu.org](https://test.pages.net.eu.org/)
 </div>
 {::options parse_block_html="false" /}
@@ -346,30 +340,30 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
-[test.pages.net.eu.org](https://test.pages.net.eu.org/ "test.pages.net.eu.org")
+<div style="background: #333; padding: 0 5px;">
+[remotetheme.github.io](https://remotetheme.github.io/ "remotetheme.github.io")
 </div>
 {::options parse_block_html="false" /}
 
 上のリンク部分にカーソルを当ててみて下さい。
 
 ```
-<https://test.pages.net.eu.org/> のように URL へのリンクもできます。
+<https://remotetheme.github.io/> のように URL へのリンクもできます。
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
-<https://test.pages.net.eu.org/> のように URL へのリンクもできます。
+<div style="background: #333; padding: 0 5px;">
+<https://remotetheme.github.io/> のように URL へのリンクもできます。
 </div>
 {::options parse_block_html="false" /}
 
 ```
-システムによって https://test.pages.net.eu.org/ のように自動リンク化する場合もあります。 
+システムによって https://remotetheme.github.io/ のように自動リンク化する場合もあります。 
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
-システムによって https://test.pages.net.eu.org/ のように自動リンク化する場合もあります。
+<div style="background: #333; padding: 0 5px;">
+システムによって https://remotetheme.github.io/ のように自動リンク化する場合もあります。
 </div>
 {::options parse_block_html="false" /}
 
@@ -391,7 +385,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ![ふうせん🎈 Fu-sen.](https://balloon.asia/apple-touch-icon.png)
 </div>
 {::options parse_block_html="false" /}
@@ -403,7 +397,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ![ふうせん🎈 Fu-sen.](https://balloon.asia/apple-touch-icon.png "ふうせん🎈 Fu-sen.")
 </div>
 {::options parse_block_html="false" /}
@@ -419,7 +413,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 変換させたくない場合は \`このように\` \ を付けます。
 </div>
 {::options parse_block_html="false" /}
@@ -443,7 +437,7 @@ GitHub や Hugo などは
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 GitHub や Hugo などは  
 これでも改行できます。
 </div>
@@ -457,7 +451,7 @@ GitHub のソースや Hugo などは\
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 GitHub のソースや Hugo などは\
 これで改行できます。
 </div>
@@ -471,7 +465,7 @@ HTML タグを入れて<br>
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 HTML タグを入れて<br>
 改行できる場合もあります。
 </div>
@@ -483,7 +477,7 @@ HTML タグを入れて<br>
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 システムによってはこのまま
 改行できる場合もあります。
 </div>
@@ -515,7 +509,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 
 |見出し|見出し|見出し|
 |------|:----:|-----:|
@@ -541,7 +535,7 @@ Code プロック内は変換されず、そのまま表示されます。
 ```</code></pre></div>
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ```
 10 INPUT A
 20 INPUT B
@@ -564,7 +558,7 @@ Code プロック内は変換されず、そのまま表示されます。
 ```</code></pre></div>
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ```json
 {
   "firstName": "John",
@@ -586,7 +580,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 脚注はこのように使います。 [^1]
 
 [^1]: これが脚注です。
@@ -612,7 +606,7 @@ Markdown の中でもこの説明がされている事は少ないですが、
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ここから [トップページ][1] へ移動します。
 
 [1]: http://test.pages.net.eu.org/ "test.pages.net.eu.org"
@@ -630,7 +624,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 定義
 : 説明１
 : 説明２
@@ -646,7 +640,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 ここに ~~取り消し線~~ が入ります。
 </div>
 {::options parse_block_html="false" /}
@@ -661,7 +655,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 - [x] 完了
 - [ ] 未完成
 </div>
@@ -679,7 +673,7 @@ ___
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 システムによって <strong>HTML</strong> もそのまま使えます。
 </div>
 {::options parse_block_html="false" /}
@@ -690,34 +684,21 @@ GitHub Pages（Jekyll）はデフォルトで HTML タグ内は markdown 変換�
 
 ```
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 HTML の中で ***Markdown*** も使えます。
 </div>
 {::options parse_block_html="false" /}
 ```
 
 {::options parse_block_html="true" /}
-<div style="background: #eee; padding: 0 5px;">
+<div style="background: #333; padding: 0 5px;">
 HTML の中で ***Markdown*** も使えます。
 </div>
 {::options parse_block_html="false" /}
 
 ___
 
-## その他 GitHub Pages の特記事項
-
-`index.md` がない場合、`README.md` を代わりに表示します。
-
-Not Found 表示に `404.md` を使用できます。（HTML でも `404.html` を使用可能）
-
-独自ドメインを使用する場合、`CNAME` に独自ドメインが入ります。  
-予め生成してコミット可能です。
-
-無料プランでの GitHub Pages 使用はリポジトリの public 化が必須です。  
-private で GitHub Pages を使用する場合は有料プランにする必要があります。
-
-___
-
-[test.pages.net.eu.org](/)
+[remotetheme.github.io](https://remotetheme.github.io/) / 
+[midnight](/)
 
 ___
