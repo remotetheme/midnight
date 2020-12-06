@@ -1,6 +1,6 @@
 
 [remotetheme.github.io](https://remotetheme.github.io/) / 
-[midnight](/)
+[midnight](./)
 
 ___
 
@@ -699,6 +699,6 @@ HTML の中で ***Markdown*** も使えます。
 ___
 
 [remotetheme.github.io](https://remotetheme.github.io/) / 
-[midnight](/)
+[midnight](./)
 
 ___
