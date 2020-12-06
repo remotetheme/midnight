@@ -26,7 +26,7 @@ google_analytics: UA-OOOOOOOO-O
 theme: jekyll-theme-midnight
 ```
 
-このテーナ **Merlot** を使用する場合に指定します。
+このテーマ **Merlot** を使用する場合に指定します。
 
 ```
 lang: ja
