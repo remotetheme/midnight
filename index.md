@@ -59,5 +59,13 @@ Google アナリティクス 4 のコードは非対応です。
 
 ___
 
+## テーマのプロジェクト・ソース
+
+より詳細な設定などはこちらを参照して下さい。
+
+<https://github.com/pages-themes/midnight>
+
+___
+
 [remotetheme.github.io](https://remotetheme.github.io/)
 
