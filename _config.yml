@@ -4,3 +4,6 @@ title: Midnight テーマ
 description: GitHub Pages Midnight テーマ
 show_downloads: false
 google_analytics: 
+
+plugins:
+  - jekyll-sitemap
